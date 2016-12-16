@@ -22,7 +22,7 @@ export default function applyMiddleware(...middlewares) {
     var dispatch = store.dispatch
     var chain = []
 
-    var middlewareAPi = {
+    var middlewareAPI = {
       getState: store.getState,
       dispatch: (action) => dispatch(action)
     }
