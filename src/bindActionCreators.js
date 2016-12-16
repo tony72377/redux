@@ -24,7 +24,7 @@ function bindActionCreator(actionCreator, dispatch) {
  * function.
  */
 export default function bindActionCreators(actionCreators, dispatch) {
-  if (typeof actionCreators === 'function') {
+  if (typeof actionCreators !== 'function') {
     return bindActionCreator(actionCreators, dispatch)
   }
 
