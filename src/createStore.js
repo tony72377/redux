@@ -106,7 +106,7 @@ export default function createStore(reducer, preloadedState, enhancer) {
     var isSubscribed = true
 
     ensureCanMutateNextListeners()
-    nextListeners.push(listener)
+    nextListeners.unshift(listener)
 
     return function unsubscribe() {
       if (!isSubscribed) {
