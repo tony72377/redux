@@ -1,13 +1,15 @@
 First Pull Request
 =================
 
-Comment on the issue you want to take. It will get assigned to you.
+Comment on the issue you want to take. You'll get priority on it.
 
 Follow the guide [here](http://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/).
 
 Run `npm install` or `yarn` to install dependencies.
 
 `npm test` or `yarn test` to run the test suite.
+
+Make sure you submit your pull request to firstpr/redux and not reactjs/redux!
 
 
 # <a href='http://redux.js.org'><img src='https://camo.githubusercontent.com/f28b5bc7822f1b7bb28a96d8d09e7d79169248fc/687474703a2f2f692e696d6775722e636f6d2f4a65567164514d2e706e67' height='60'></a>
